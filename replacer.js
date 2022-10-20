@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-const images = [(list of links to photos)];
+const images = ["link1", "link2"...];
 
 function dupsko() {
     var links = Array.prototype.slice.call(document.querySelectorAll("img"));
